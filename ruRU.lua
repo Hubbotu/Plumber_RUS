@@ -1,3 +1,5 @@
+--Coutesy of ZamestoTV. Thank you!    --Translator: ZamestoTV as of 1.1.2
+
 if not (GetLocale() == "ruRU") then return end;
 
 local _, addon = ...
