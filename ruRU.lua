@@ -52,19 +52,19 @@ L["ModuleDescription PlayerChoiceFrameToken"] = "Покажите, скольк�
 
 
 --EmeraldBountySeedList (Show available Seeds when approaching Emerald Bounty 10.2.0)
-L["ModuleName EmeraldBountySeedList"] = "Быстрый слот: Семена";
+L["ModuleName EmeraldBountySeedList"] = "Быстрый слот: Семена Сна";
 L["ModuleDescription EmeraldBountySeedList"] = "Отобразить список семян, когда вы приблизитесь к Изумрудному дару."..L["Quick Slot Generic Description"];
 
 
 --WorldMapPin: SeedPlanting (Add pins to WorldMapFrame which display soil locations and growth cycle/progress)
-L["ModuleName WorldMapPinSeedPlanting"] = "Картография: Семена";
+L["ModuleName WorldMapPinSeedPlanting"] = "Карта: Семена Сна";
 L["ModuleDescription WorldMapPinSeedPlanting"] = "Показывать местоположение семян и циклы их роста на карте."..L["Map Pin Change Size Method"].."\n\n|cffd4641cВключение этого модуля приведет к удалению отображения иконок на карте игры по умолчанию для Изумрудного Дара, что может повлиять на поведение других аддонов.";
 L["Pin Size"] = "Размер штифта";
 
 
 --PlayerChoiceUI: Dreamseed Nurturing (PlayerChoiceFrame Revamp)
-L["ModuleName AlternativePlayerChoiceUI"] = "Выбор пользовательского интерфейса: Семена Сна";
-L["ModuleDescription AlternativePlayerChoiceUI"] = "Замените пользовательский пользовательский интерфейс Семян Сна, который меньше блокирует просмотр, отобразите количество принадлежащих вам предметов и разрешите автоматически добавлять предметы, нажав и удерживая кнопку.";
+L["ModuleName AlternativePlayerChoiceUI"] = "Интерфейс: Семена Сна";
+L["ModuleDescription AlternativePlayerChoiceUI"] = "Замените пользовательский интерфейс Семян Сна, который меньше блокирует просмотр, отобразите количество принадлежащих вам предметов и разрешите автоматически добавлять предметы, нажав и удерживая кнопку.";
 
 
 --HandyLockpick (Right-click a lockbox in your bag to unlock when you are not in combat. Available to rogues and mechagnomes)
