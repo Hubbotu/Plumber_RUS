@@ -76,7 +76,7 @@ L["Instruction Pick Lock"] = "<Щелкните ПКМ, чтобы выбрат�
 --Rare/Location Announcement
 L["Announce Location Tooltip"] = "Поделитесь этим местоположением в чате.";
 L["Announce Forbidden Reason In Cooldown"] = "Недавно вы поделились своим местоположением.";
-L["Announce Forbidden Reason Duplicate Message"] = "Недавно этой локацией поделился другой игрок.";
+L["Announce Forbidden Reason Duplicate Message"] = "Недавно этим местоположением поделился другой игрок.";
 L["Announce Forbidden Reason Soon Despawn"] = "Вы не можете поделиться этим местоположением, потому что оно скоро исчезнет.";
 L["Available In Format"] = "Доступно в: |cffffffff%s|r";
 
