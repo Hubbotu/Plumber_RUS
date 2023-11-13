@@ -28,11 +28,11 @@ L["Item Track Too Many"] = "Вы можете отслеживать тольк�
 L["Tracking List Empty"] = "Ваш пользовательский список отслеживания пуст.";
 L["Holiday Ends Format"] = "Заканчивается: %s";
 L["Not Found"] = "Не найдено";   --Item not found
-L["Own"] = "В собственности";   --Something that the player has/owns
-L["Numbers To Earn"] = "# Чтобы заработать";     --The number of items/currencies player can earn. The wording should be as abbreviated as possible.
+L["Own"] = "В наличии";   --Something that the player has/owns
+L["Numbers To Earn"] = "# Можно получить";     --The number of items/currencies player can earn. The wording should be as abbreviated as possible.
 L["Numbers Of Earned"] = "# Заработал";    --The number of stuff the player has earned
 L["Track Upgrade Currency"] = "Отслеживать гребни";     --Crest: e.g. Drake’s Dreaming Crest
-L["Track Upgrade Currency Tooltip"] = "Pin the top-tier crest you have earned to the bar.";
+L["Track Upgrade Currency Tooltip"] = "Отображать гребни только высшего уровня, которые вы получили.";
 L["Currently Pinned Colon"] = "В настоящее время закреплен:";  --Tells the currently pinned item
 
 
