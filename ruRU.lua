@@ -1,15 +1,17 @@
---Coutesy of ZamestoTV. Thank you!    --Translator: ZamestoTV as of 1.1.2
+--Coutesy of ZamestoTV. Thank you!    --Translator: ZamestoTV as of 1.1.6
 
 if not (GetLocale() == "ruRU") then return end;
 
 local _, addon = ...
 local L = addon.L;
 
+
 --Module Control Panel
 L["Module Control"] = "Управление модулем";
 L["Quick Slot Generic Description"] = "\n\n*Быстрый слот - это набор интерактивных кнопок, которые появляются при определенных условиях.";
 L["Restriction Combat"] = "Не работает в бою";    --Indicate a feature can only work when out of combat
 L["Map Pin Change Size Method"] = "\n\n*Вы можете изменить размер штифта на карте мира - Фильтр карты - Plumber";
+
 
 --AutoJoinEvents
 L["ModuleName AutoJoinEvents"] = "Автоматическое присоединение к событиям";
@@ -73,12 +75,28 @@ L["ModuleDescription HandyLockpick"] = "Щелкните ПКМ на сейфе 
 L["Instruction Pick Lock"] = "<Щелкните ПКМ, чтобы выбрать блокировку>";
 
 
+--BlizzFixEventToast (Make the toast banner (Level-up, Weekly Reward Unlocked, etc.) non-interactable so it doesn't block your mouse clicks)
+L["ModuleName BlizzFixEventToast"] = "Blitz Fix: События";
+L["ModuleDescription BlizzFixEventToast"] = "Измените поведение всплывающих окон событий, чтобы для этого не требовалось ваших щелчков мыши. Также позволяет щелкнуть ПКМ на всплывающем окне и немедленно закрыть его.\n\n*Баннеры по событиям - это баннеры, которые появляются в верхней части экрана, когда вы выполняете определенные действия.";
+
+
 --Rare/Location Announcement
 L["Announce Location Tooltip"] = "Поделитесь этим местоположением в чате.";
 L["Announce Forbidden Reason In Cooldown"] = "Недавно вы поделились своим местоположением.";
 L["Announce Forbidden Reason Duplicate Message"] = "Недавно этим местоположением поделился другой игрок.";
 L["Announce Forbidden Reason Soon Despawn"] = "Вы не можете поделиться этим местоположением, потому что оно скоро исчезнет.";
 L["Available In Format"] = "Доступно в: |cffffffff%s|r";
+L["Seed Color Epic"] = "фиолетовый: ";
+L["Seed Color Rare"] = "синий: ";
+L["Seed Color Uncommon"] = "зеленый: ";
+
+
+--Generic
+L["Reposition Button Horizontal"] = "Перемещение по горизонтали";   --Move the window horizontally
+L["Reposition Button Vertical"] = "Перемещение по вертикали";
+L["Reposition Button Tooltip"] = "Щелкните ЛКМ и перетащите, чтобы переместить окно.";
+
+
 
 
 -- !! Do NOT translate the following entries
