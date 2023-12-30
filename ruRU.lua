@@ -1,4 +1,4 @@
---Coutesy of ZamestoTV. Thank you!    --Translator: ZamestoTV as of 1.1.7
+--Coutesy of ZamestoTV. Thank you!    --Translator: ZamestoTV as of 1.1.8
 
 if not (GetLocale() == "ruRU") then return end;
 
@@ -86,6 +86,7 @@ L["Priority Default"] = "По умолчанию";  --WoW's default waypoint pri
 L["Priority Default Tooltip"] = "Следуйте настройкам WoW по умолчанию. По возможности расставьте приоритеты в заданиях, местах воскрешения, местоположениях торговцев. В противном случае начните отслеживать активные семена.";
 L["Stop Tracking"] = "Прекратить отслеживание";
 L["Click To Track Location"] = "|TInterface/AddOns/Plumber/Art/SuperTracking/SuperTrackIcon:0:0:0:0|t " .. "Щелкните ЛКМ, чтобы отследить местоположение";
+L["Click To Track In TomTom"] = "|TInterface/AddOns/Plumber/Art/SuperTracking/TooltipIcon-TomTom:0:0:0:0|t " .. "Щелкните ЛКМ, чтобы отслеживать в TomTom";
 
 
 --Navigator_Dreamseed (Use Super Tracking to navigate players)
