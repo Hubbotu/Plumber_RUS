@@ -1,4 +1,4 @@
---Coutesy of ZamestoTV. Thank you!    --Translator: ZamestoTV as of 1.1.8
+--Coutesy of ZamestoTV. Thank you!    --Translator: ZamestoTV as of 1.1.9
 
 if not (GetLocale() == "ruRU") then return end;
 
@@ -11,6 +11,19 @@ L["Module Control"] = "Управление модулем";
 L["Quick Slot Generic Description"] = "\n\n*Быстрый слот - это набор интерактивных кнопок, которые появляются при определенных условиях.";
 L["Restriction Combat"] = "Не работает в бою";    --Indicate a feature can only work when out of combat
 L["Map Pin Change Size Method"] = "\n\n*Вы можете изменить размер штифта на карте мира - Фильтр карты - Plumber";
+
+
+--Module Categories
+--- order: 0
+L["Module Category Unknown"] = "Unknown"    --Don't need to translate
+--- order: 1
+L["Module Category General"] = "Общие";
+--- order: 2
+L["Module Category NPC Interaction"] = "Взаимодействие с НПС";
+--- order: 3
+L["Module Category Class"] = "Класс";   --Player Class (rogue, paladin...)
+--- order: 4
+L["Module Category Dreamseeds"] = "Семена сна";     --Added in patch 10.2.0
 
 
 --AutoJoinEvents
@@ -80,6 +93,23 @@ L["ModuleName BlizzFixEventToast"] = "Blitz Fix: События";
 L["ModuleDescription BlizzFixEventToast"] = "Измените поведение всплывающих окон событий, чтобы для этого не требовалось ваших щелчков мыши. Также позволяет щелкнуть ПКМ на всплывающем окне и немедленно закрыть его.\n\n*Баннеры по событиям - это баннеры, которые появляются в верхней части экрана, когда вы выполняете определенные действия.";
 
 
+--Talking Head
+L["ModuleName TalkingHead"] = HUD_EDIT_MODE_TALKING_HEAD_FRAME_LABEL or "Говорящая голова";
+L["ModuleDescription TalkingHead"] = "Замените стандартный пользовательский интерфейс Говорящей головы на чистый, безголовый.";
+L["EditMode TalkingHead"] = "Plumber: "..L["ModuleName TalkingHead"];
+L["TalkingHead Option InstantText"] = "Мгновенный текст";   --Should texts immediately, no gradual fading
+L["TalkingHead Option Condition Header"] = "Скрыть тексты из источника:";
+L["TalkingHead Option Condition WorldQuest"] = TRACKER_HEADER_WORLD_QUESTS or "Локальные задания";
+L["TalkingHead Option Condition WorldQuest Tooltip"] = "Скрыть текст, если он из локального задания.\nИногда «Говорящая голова» срабатывает до принятия локального задания, и мы не сможем это скрыть.";
+L["TalkingHead Option Condition Instance"] = INSTANCE or "Подземелье";
+L["TalkingHead Option Condition Instance Tooltip"] = "Скрыть текст, когда вы находитесь в подземелье.";
+
+
+--AzerothianArchives
+L["ModuleName AzerothianArchives"] = "Говорящая голова: Азеротские архивы";
+L["ModuleDescription AzerothianArchives"] = "Замените стандартный пользовательский интерфейс Говорящей Головы, пока вы выполняете задания Азеротских архивов.";
+
+
 --Navigator(Waypoint/SuperTrack) Shared Strings
 L["Priority"] = "Приоритет";
 L["Priority Default"] = "По умолчанию";  --WoW's default waypoint priority: Corpse, Quest, Scenario, Content
@@ -112,6 +142,8 @@ L["Seed Color Uncommon"] = "зеленый: ";
 L["Reposition Button Horizontal"] = "Перемещение по горизонтали";   --Move the window horizontally
 L["Reposition Button Vertical"] = "Перемещение по вертикали";
 L["Reposition Button Tooltip"] = "Щелкните ЛКМ и перетащите, чтобы переместить окно.";
+L["Font Size"] = FONT_SIZE or "Размер шрифта";
+L["Reset To Default Position"] = HUD_EDIT_MODE_RESET_POSITION or "Сброс в положение по умолчанию";
 
 
 
