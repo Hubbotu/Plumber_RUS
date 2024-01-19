@@ -1,4 +1,4 @@
---Coutesy of ZamestoTV. Thank you!    --Translator: ZamestoTV as of 1.1.9
+--Coutesy of ZamestoTV. Thank you!    --Translator: ZamestoTV as of 1.2.0
 
 if not (GetLocale() == "ruRU") then return end;
 
@@ -98,6 +98,7 @@ L["ModuleName TalkingHead"] = HUD_EDIT_MODE_TALKING_HEAD_FRAME_LABEL or "Гов�
 L["ModuleDescription TalkingHead"] = "Замените стандартный пользовательский интерфейс Говорящей головы на чистый, безголовый.";
 L["EditMode TalkingHead"] = "Plumber: "..L["ModuleName TalkingHead"];
 L["TalkingHead Option InstantText"] = "Мгновенный текст";   --Should texts immediately, no gradual fading
+L["TalkingHead Option TextOutline"] = "Текстовый контур";
 L["TalkingHead Option Condition Header"] = "Скрыть тексты из источника:";
 L["TalkingHead Option Condition WorldQuest"] = TRACKER_HEADER_WORLD_QUESTS or "Локальные задания";
 L["TalkingHead Option Condition WorldQuest Tooltip"] = "Скрыть текст, если он из локального задания.\nИногда «Говорящая голова» срабатывает до принятия локального задания, и мы не сможем это скрыть.";
@@ -125,6 +126,11 @@ L["ModuleDescription Navigator_Dreamseed"] = "Используйте систе�
 L["Priority New Seeds"] = "Поиск новых семян";
 L["Priority Rewards"] = "Сбор наград";
 L["Stop Tracking Dreamseed Tooltip"] = "Прекратите отслеживать семена до тех пор, пока не нажмете ЛКМ на штифт карты.";
+
+
+--BlizzFixWardrobeTrackingTip (Permanently disable the tip for wardrobe shortcuts)
+L["ModuleName BlizzFixWardrobeTrackingTip"] = "Blitz Fix: Совет по гардеробу";
+L["ModuleDescription BlizzFixWardrobeTrackingTip"] = "Скрыть руководство по гардеробу.";
 
 
 --Rare/Location Announcement
