@@ -1,4 +1,4 @@
---Coutesy of ZamestoTV. Thank you!    --Translator: ZamestoTV as of 1.2.0
+--Coutesy of ZamestoTV. Thank you!    --Translator: ZamestoTV as of 1.2.1
 
 if not (GetLocale() == "ruRU") then return end;
 
@@ -116,7 +116,7 @@ L["Priority"] = "Приоритет";
 L["Priority Default"] = "По умолчанию";  --WoW's default waypoint priority: Corpse, Quest, Scenario, Content
 L["Priority Default Tooltip"] = "Следуйте настройкам WoW по умолчанию. По возможности расставьте приоритеты в заданиях, местах воскрешения, местоположениях торговцев. В противном случае начните отслеживать активные семена.";
 L["Stop Tracking"] = "Прекратить отслеживание";
-L["Click To Track Location"] = "|TInterface/AddOns/Plumber/Art/SuperTracking/SuperTrackIcon:0:0:0:0|t " .. "Щелкните ЛКМ, чтобы отследить местоположение";
+L["Click To Track Location"] = "|TInterface/AddOns/Plumber/Art/SuperTracking/TooltipIcon-SuperTrack:0:0:0:0|t " .. "Щелкните ЛКМ, чтобы отследить местоположение";
 L["Click To Track In TomTom"] = "|TInterface/AddOns/Plumber/Art/SuperTracking/TooltipIcon-TomTom:0:0:0:0|t " .. "Щелкните ЛКМ, чтобы отслеживать в TomTom";
 
 
@@ -139,9 +139,9 @@ L["Announce Forbidden Reason In Cooldown"] = "Недавно вы поделил
 L["Announce Forbidden Reason Duplicate Message"] = "Недавно этим местоположением поделился другой игрок.";
 L["Announce Forbidden Reason Soon Despawn"] = "Вы не можете поделиться этим местоположением, потому что оно скоро исчезнет.";
 L["Available In Format"] = "Доступно в: |cffffffff%s|r";
-L["Seed Color Epic"] = "фиолетовый: ";
-L["Seed Color Rare"] = "синий: ";
-L["Seed Color Uncommon"] = "зеленый: ";
+L["Seed Color Epic"] = ICON_TAG_RAID_TARGET_DIAMOND3 or "фиолетовый: ";   --Using GlobalStrings as defaults
+L["Seed Color Rare"] = ICON_TAG_RAID_TARGET_SQUARE3 or "синий: ";
+L["Seed Color Uncommon"] = ICON_TAG_RAID_TARGET_TRIANGLE3 or "зеленый: ";
 
 
 --Generic
