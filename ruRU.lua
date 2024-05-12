@@ -1,4 +1,4 @@
---Coutesy of ZamestoTV. Thank you!    --Translator: ZamestoTV as of 1.2.6
+--Coutesy of ZamestoTV. Thank you!    --Translator: ZamestoTV as of 1.2.8
 
 if not (GetLocale() == "ruRU") then return end;
 
@@ -135,6 +135,11 @@ L["Stop Tracking Dreamseed Tooltip"] = "Прекратите отслежива�
 --BlizzFixWardrobeTrackingTip (Permanently disable the tip for wardrobe shortcuts)
 L["ModuleName BlizzFixWardrobeTrackingTip"] = "Blitz Fix: Совет по гардеробу";
 L["ModuleDescription BlizzFixWardrobeTrackingTip"] = "Скрыть руководство по гардеробу.";
+
+
+--TillersFarm
+L["ModuleName TillersFarm"] = "Ферма Пандарии"
+L["ModuleDescription TillersFarm"] = "Показывать список семян, когда вы выбираете почву на ферме Солнечной Песни.";
 
 
 --Rare/Location Announcement
