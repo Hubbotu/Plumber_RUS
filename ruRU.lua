@@ -1,4 +1,4 @@
---Coutesy of ZamestoTV. Thank you!    --Translator: ZamestoTV as of 1.4.8 d
+--Coutesy of ZamestoTV. Thank you!    --Translator: ZamestoTV as of 1.4.9
 
 if not (GetLocale() == "ruRU") then return end;
 
@@ -215,6 +215,14 @@ L["ModuleDescription BlizzFixFishingArtifact"] = "Разрешить вам сн
 --QuestItemDestroyAlert
 L["ModuleName QuestItemDestroyAlert"] = "Подтверждение удаления предмета задания";
 L["ModuleDescription QuestItemDestroyAlert"] = "Показывать информацию о связанном задании при попытке уничтожить предмет, который начинает задание. \n\n|cffd4641cРаботает только для предметов, которые начинают задания, а не для тех, которые вы получаете после принятия задания.|r";
+
+
+--SpellcastingInfo
+L["ModuleName SpellcastingInfo"] = "Информация о заклинании цели";
+L["ModuleDescription SpellcastingInfo"] = "- Показывать подсказку заклинания при наведении курсора на панель заклинаний в рамке цели.\n\n- Сохраните способности монстра, которые можно будет просмотреть позже, щелкнув правой кнопкой мыши по рамке цели.";
+L["Abilities"] = ABILITIES or "Способности";
+L["Spell Colon"] = "Заклинание: ";   --Display SpellID
+L["Icon Colon"] = "Иконка: ";     --Display IconFileID
 
 
 --Loot UI
